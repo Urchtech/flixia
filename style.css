@@ -1,0 +1,169 @@
+* {
+  scroll-behavior: smooth;
+}
+
+*:not(*:hover, *:hover *) {
+  -webkit-transition: 0.1s all ease-in-out;
+  -o-transition: 0.1s all ease-in-out;
+  transition: 0.1s all ease-in-out;
+}
+
+*:focus {
+  transition: 0.1s all ease-in-out;
+  outline: 2px dotted;
+  outline-color: #000;
+  opacity: 1 !important;
+}
+
+body {
+  background-color: #ececec;
+}
+
+div.logo img {
+  height: 40px;
+  transition: none;
+}
+
+nav ul li {
+  border-bottom: 2px solid transparent;
+  transition: 0.25s ease-in-out;
+}
+
+nav ul li:not(:last-child):hover {
+  border-bottom: 2px solid #fbbb47;
+  cursor: pointer;
+}
+
+.banner {
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+div.banner-img {
+  background: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+}
+
+.banner img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  position: relative;
+  z-index: -1;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 0px;
+}
+
+.text-content .header {
+  color: #fff;
+  opacity: 0.85;
+}
+
+.text-content .title {
+  color: #fff;
+}
+
+.text-content .genre {
+  color: #fff;
+  opacity: 0.6;
+}
+
+.text-content button {
+  border: 2px solid #fbbb47;
+  border-radius: 25px;
+  color: #fff;
+  padding: 6px 20px;
+}
+
+button.primary {
+  background-color: #fbbb47;
+  border-radius: 25px;
+  color: #fff;
+  padding: 6px 20px;
+}
+
+.tiny-icon {
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+.text-light-black {
+  color: #757b8b;
+}
+
+.movie-card {
+  height: 280px;
+  overflow: hidden;
+}
+
+.movie-card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.movie-card:nth-child(1) img {
+  object-position: center -50px;
+}
+
+.movie-card:nth-child(2) img {
+  object-position: center -110px;
+}
+
+.movie-card:nth-child(3) img {
+  object-position: center -112px;
+}
+
+.coming-soon-card {
+  /* height: 100px; */
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.coming-soon-card .movie-img {
+  overflow: hidden;
+}
+
+.coming-soon-card .movie-img img {
+  height: 69px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.coming-soon-card .title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #686e7d;
+}
+
+.coming-soon-card .extra-info {
+  font-size: 12px;
+  font-weight: 400;
+  color: #686e7d;
+}
+
+.coming-soon-card .date {
+  font-size: 12px;
+  font-weight: 600;
+  color: #686e7d;
+}
+
+ul.plan-descriptions li {
+  color: #757b8b;
+  list-style: circle;
+}
+
+.subscription-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscription-card .name {
+  color: #13203c;
+  font-size: 18px;
+}
