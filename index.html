@@ -3,29 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              clifford: "#da373d",
-            },
-          },
-          container: {
-            center: true,
-            padding: {
-              DEFAULT: "1.20rem",
-              // sm: "1.20rem",
-              // lg: "2rem",
-              xl: "3rem",
-              "2xl": "6rem",
-            },
-          },
-        },
-      };
-    </script>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -57,7 +39,7 @@
     <main>
       <section>
         <div class="container banner mt-4 mb-10">
-          <div class="h-full banner-img rounded-[16px]">
+          <div class="h-full banner-img rounded-16px">
             <img class="" src="./assets/images/ww.jpeg" alt="" />
           </div>
           <div class="container banner-content mb-20">
@@ -88,13 +70,13 @@
                 </div>
               </div>
               <div class="grid grid-cols-3 gap-5">
-                <div class="movie-card rounded-[8px]">
+                <div class="movie-card rounded-8px">
                   <img src="./assets/images/ad-astra.jpeg" alt="" />
                 </div>
-                <div class="movie-card rounded-[8px]">
+                <div class="movie-card rounded-8px">
                   <img src="./assets/images/joker.jpeg" alt="" />
                 </div>
-                <div class="movie-card rounded-[8px]">
+                <div class="movie-card rounded-8px">
                   <img src="./assets/images/bridgerton.jpeg" alt="" />
                 </div>
               </div>
@@ -113,9 +95,9 @@
                   />
                 </div>
               </div>
-              <div class="coming-soon-card rounded-[8px] p-2 mb-3">
+              <div class="coming-soon-card rounded-8px p-2 mb-3">
                 <div class="grid grid-cols-3 gap-x-3">
-                  <div class="col-span-1 movie-img rounded-[4px]">
+                  <div class="col-span-1 movie-img rounded-4px">
                     <img src="./assets/images/black-panther-2.jpeg" alt="" />
                   </div>
                   <div class="col-span-2">
@@ -125,9 +107,9 @@
                   </div>
                 </div>
               </div>
-              <div class="coming-soon-card rounded-[8px] p-2 mb-3">
+              <div class="coming-soon-card rounded-8px p-2 mb-3">
                 <div class="grid grid-cols-3 gap-x-3">
-                  <div class="col-span-1 movie-img rounded-[4px]">
+                  <div class="col-span-1 movie-img rounded-4px">
                     <img src="./assets/images/black-adam.jpeg" alt="" />
                   </div>
                   <div class="col-span-2">
@@ -137,7 +119,7 @@
                   </div>
                 </div>
               </div>
-              <div class="coming-soon-card rounded-[8px] p-2 mb-3">
+              <div class="coming-soon-card rounded--8px] p-2 mb-3">
                 <div class="grid grid-cols-3 gap-x-3">
                   <div class="col-span-1 movie-img rounded-[4px]">
                     <img src="./assets/images/john-wick-4.jpeg" alt="" />
@@ -161,7 +143,7 @@
           </p>
           <div class="flex">
             <div class="mx-auto grid grid-cols-3 gap-x-5">
-              <div class="rounded-[16px] bg-white subscription-card p-8">
+              <div class="rounded-16px bg-white subscription-card p-8">
                 <p class="name">Basic</p>
                 <ul class="plan-descriptions my-4">
                   <li class="ml-4 mb-3">
@@ -180,7 +162,7 @@
                   <button class="primary w-full">Select this plan</button>
                 </div>
               </div>
-              <div class="rounded-[16px] bg-white subscription-card p-8">
+              <div class="rounded-16px bg-white subscription-card p-8">
                 <p class="name">Standard</p>
                 <ul class="plan-descriptions my-4">
                   <li class="ml-4 mb-3">
@@ -204,7 +186,7 @@
                   <button class="primary w-full">Select this plan</button>
                 </div>
               </div>
-              <div class="rounded-[16px] bg-white subscription-card p-8">
+              <div class="rounded-16px bg-white subscription-card p-8">
                 <p class="name">Premium</p>
                 <ul class="plan-descriptions my-4">
                   <li class="ml-4 mb-3">
